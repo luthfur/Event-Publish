@@ -1,0 +1,65 @@
+	.field {
+	
+		font-family: tahoma; 
+		font-size: 8pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		background-color: #FFFFFF;
+		
+
+	}
+
+
+	.selectbox {
+	
+		font-family: tahoma; 
+		font-size: 8pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		background-color: #FFFFFF;
+		width: 140px;
+		
+	}
+
+
+	.button {
+	
+		font-family: tahoma; 
+		font-size: 8pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		
+	}
+	
+
+	#view_event, #options, #search {
+	
+		border: 1px solid;
+		border-color: #D1D1CE;
+
+	}
+	
+	#view_event_header, #view_event_body, #option_header, #option_body, #search_header, #search_body {
+
+		font-family: tahoma; 
+		font-size: 8pt;
+		font-weight: bold;
+		color: #4E4E4A;
+		background-color: #F2F2EF;
+		border: none;
+		
+
+	}
+	
+	
+	#option_body a, #advsearch a{color: #4E4E4A; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: normal;}
+	#option_body a:active, #advsearch a:active{color: #4E4E4A; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: normal;}
+	#option_body a:visited, #advsearch a:visited{color: #4E4E4A; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: normal;}
+	#option_body a:hover, #advsearch a:hover{color: #4E4E4A; font-family: verdana; font-size: 8pt; text-decoration: underline; font-weight: normal;}
+		
+
+	#seperator {
+		
+		border-color: #D1D1CE;
+
+	}

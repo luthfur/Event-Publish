@@ -1,0 +1,319 @@
+
+#view_header{
+		
+		border: 1px solid;
+		color: #FFFFFF;
+		font-family: tahoma; 
+		font-size: 10pt;
+		font-weight: bold;
+		border-color: #d34f19; 
+		background-color: #d34f19;
+		border-left-style: none;
+		border-bottom-style: none;
+	
+}
+
+
+div.event_list {
+	
+	border: 1px solid;
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: solid;
+	border-color: #FFFFFF;
+	background-color: #eeeeed;
+	font-family: tahoma; 
+	font-size: 8pt;
+	color: #4E4E4A;
+
+}
+
+
+
+td.event_item_header, div.event_item_header{
+	
+	border: 1px solid;
+	border-right-style: none; 
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-color: #FFFFFF;
+	font-family: tahoma; 
+	font-size: 8pt;
+	font-weight: bold;
+	color: #4E4E4A;
+	background-color: #FFFFFF;
+
+}
+
+
+div.no_event_item {
+	
+	padding-top: 10px;
+	height: 60px;
+}
+
+
+div.weekbox, div.daybox, table.monthbox, div.monthbox, table.yearbox {
+		border: 1px solid;
+		border-color: #D1D1CE;
+	}
+
+	
+
+
+td.month_date_box {
+
+	border: 1px solid;
+	border-color:  #FFFFFF;
+	border-right-style: solid; 
+	border-left-style: solid;
+	border-top-style: none;
+	border-bottom-style: none;
+	background-color: #eeeeed;
+	
+	padding: 8px;
+	font-family: tahoma; 
+	font-size: 8pt;
+	color: #4E4E4A;
+}
+
+
+div.event_title a, div.event_title a:active, div.event_title a:visited, div.event_title a:hover{
+	 font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: bold; color: #0A66AD;
+}
+
+
+div.event_title a:hover{
+	color: #FF5E1F; 
+}
+
+
+div.event_title_month a {
+	color: #0A66AD; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: normal;
+}
+
+
+div.event_title_month a:hover{
+	color: #FF5E1F; 
+}
+
+
+
+a.locationlink, a.calendarlink{
+	
+	font-family: tahoma; 
+	font-size: 8pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+	
+}
+
+
+
+a.locationlink:hover, a.calendarlink:hover{
+	
+	text-decoration: none;
+
+}
+
+
+
+
+/***************** Option Drop Down *************************/
+
+	
+	.menuitem a, .menuitemtop a{
+		font-size: 8pt;
+		font-family: tahoma;
+		text-decoration: none;
+		color: #0A66AD;
+		background-color: #FFFFFF;
+		
+		}
+	
+	
+	 .menuitem a:hover, .menuitemtop a:hover {
+		background-color: #D8E6F3;
+	}
+
+	.menuitem a, .menuitem a:hover {
+		
+		border-left: 1px solid;
+		border-bottom: 1px solid;
+		border-right: 1px solid; 
+		border-color: #B2D4F4;
+		
+	}
+	
+	
+	.menuitemtop a, .menuitemtop a:hover {
+		
+		border: 1px solid;
+		border-color: #B2D4F4;
+		
+	}
+
+	.eventdrop li{
+		
+		cursor: pointer;
+		
+	}
+	
+	
+	a.event_options {
+		
+		font-family: tahoma; 
+		font-size: 8pt;
+		color: #0A66AD;
+		font-weight: normal;
+		text-decoration: none;	
+		border: 1px solid #B2D4F4;
+		background-color: #FFFFFF;
+			
+	}
+	
+	
+	a.event_options:hover{
+		
+		text-decoration: none;
+		border: 1px solid #0A66AD;
+
+	}
+	
+	
+	
+	
+
+
+
+
+
+
+/*************** event details display ************************/
+
+#event_title {
+	font-family: arial;
+	font-size: 16pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+	
+	padding-top: 25px;
+	padding-bottom: 10px;
+	
+	width: 100%;
+}
+
+
+#event_date {
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
+
+#event_time {
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+
+#event_attachments{
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 30px;
+}
+
+#event_attachments a{color: #0A66AD; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#event_attachments a:hover{text-decoration: none;}
+
+
+#event_time a{color: #0A66AD; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#event_time a:active{color: #0A66AD; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#event_time a:visited{color: #0A66AD; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#event_time a:hover{color: #0A66AD; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: normal;}
+
+
+
+#event_desc {
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+
+#event_details {
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	padding-top: 20px;
+		
+}
+
+#event_loc_details, #event_con_details{
+	float: left;
+	width: 45%;
+
+}
+
+#event_loc_details {
+	
+}
+
+
+#add_my_calendar ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 0;
+	
+}
+#add_my_calendar li {
+padding-bottom: 8px;
+}
+
+
+#add_my_calendar {
+	padding: 10px;
+	width: 100%;	
+	border: 1px solid #E7E7D4;
+	background-color: #FDFDE5;
+	font-family: arial;
+	font-size: 12pt;
+	color: #4E4E4A;
+	font-weight: bold;
+	padding-bottom: 0;
+	
+}
+
+#add_my_calendar a{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: normal;}
+#add_my_calendar a:active{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: normal;}
+#add_my_calendar a:visited{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: normal;}
+#add_my_calendar a:hover{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+
+
+#basic_controls a{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: bold;}
+#basic_controls a:active{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: bold;}
+#basic_controls a:visited{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: bold;}
+#basic_controls a:hover{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: bold;}
+
+#loc_con a{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#loc_con a:active{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#loc_con a:visited{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: underline; font-weight: normal;}
+#loc_con a:hover{color: #055dc0; font-family: arial; font-size: 10pt; text-decoration: none; font-weight: normal;}

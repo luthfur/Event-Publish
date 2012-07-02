@@ -1,0 +1,247 @@
+#manage_calendar {
+	width: 90%; margin-left: auto; margin-right: auto;
+}
+#calendar_list {
+	float: left; width: 67%; padding-top: 20px; min-height: 800px; _height: 800px;
+}
+#info_bar {
+	position: absolute; right: 12%; width: 22%; min-width: 225px; max-width: 225px;	
+}
+div.category h3 {
+	font-family: arial; font-size: 18px; font-weight: bold;	color: #0A66AD;	border-bottom: 1px solid;	margin-top: 6px; margin-bottom: 2px;
+}
+
+div.calendar_details {
+	clear: both;
+
+}
+
+
+div.calendar_details h3 {
+	font-family: arial;	font-size: 16px; font-weight: bold;	color: #4E4E4A;	border-bottom: none; padding-bottom: 6px; margin-bottom: 0px;
+}
+
+
+div.calendar_stat {
+	font-family: arial; font-size: 12px;font-weight: normal; color: #4E4E4A; border-bottom: none; font-style: italic; height: 29px; margin-top: 0px;
+}
+
+div.calendar_stat p{
+	margin-top: 0px;
+}
+
+div.calendar_tools, div.calendar_tool_form {
+	margin-top: 0px;
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	
+	
+	
+}
+
+span.processing{
+	padding-left: 15px;
+}
+
+
+div.calendar_tools {
+height: 27px;
+margin-bottom: 0px;
+}
+
+div.calendar_tool_form {
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+div.calendar_tool_form p {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4E4E4A;
+	font-style: normal;
+	padding-left: 10px;
+	margin-top: 8px;
+	
+}
+
+
+
+
+div.calendar_tools p{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4E4E4A;
+	font-style: normal;
+	padding-left: 10px;
+	
+}
+
+
+div.calendar_tool_form select {
+	padding-top: 0;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: middle;
+
+}
+
+div.calendar_tool_form a{
+	
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0A66AD;
+	padding-left: 6px;
+	
+}
+
+
+div.calendar_tool_form a:hover{
+	text-decoration: none;
+}
+
+
+
+div.calendar_tools a{
+	float: left;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0A66AD;
+	text-decoration: none;
+}
+
+
+div.calendar_tools a:hover{
+	text-decoration: underline;
+}
+
+
+div.category_tools {
+	clear: both;
+	padding-bottom: 16px;
+	
+}
+
+div.category_tools a{
+	float: right;
+	display: block;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0A66AD;
+}
+
+
+div.category_tools a:hover{
+	text-decoration: none;
+}
+
+
+div.new_calendar{
+	clear: both;
+	margin-top: 20px;
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	height: 45px;
+	margin-bottom: 14px;
+	
+}
+
+div.new_calendar a{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0A66AD;
+	padding-left: 4px;
+}
+
+
+div.new_calendar a:hover{
+	text-decoration: none;
+}
+
+
+
+div.new_calendar p{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4E4E4A;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+
+
+
+#info_bar{
+	padding-left: 30px;
+
+
+}
+
+#info_bar div{
+	width: 100%;
+	
+}
+
+div.calendar_tip, #new_category{
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	margin-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+div.calendar_tip p, #new_category p{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4E4E4A;
+	padding-left: 10px;
+}
+
+input.new{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	vertical-align: middle;
+}
+
+input.select_box{
+	vertical-align: middle;
+}
+
+input.save_button{
+	vertical-align: middle;
+}
+
+#new_category a{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0A66AD;
+	padding-right: 6px;
+}
+
+
+#new_category a:hover{
+	text-decoration: none;
+}

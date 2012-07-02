@@ -1,0 +1,410 @@
+
+
+/*************** Top Header **************/
+#calendar_title {font-family: arial;font-size: 12pt;font-weight: bold;color: #0d4676;}
+#calendar_title2 {font-family: arial; font-size: 10pt;font-weight: bold;color: #0d4676;}
+#top_menu {font-family: tahoma;font-size: 8pt;color: #0d4676;font-weight: normal;}
+#top_menu a{font-family: tahoma; font-size: 8pt;color: #0d4676;font-weight: normal;text-decoration: none;}
+#top_menu a:hover{font-family: tahoma;font-size: 8pt;color: #4E4E4A;font-weight: normal;text-decoration: underline;}
+
+
+/************* Top Menu Bar ***************/
+#template_menu {border: 1px solid;border-color: #D1D1CE;background-color: #F2F2EF;}
+#calendar_time {color: #4E4E4A;font-family: tahoma;font-size: 8pt;text-decoration: none;font-weight: bold;}
+#calendar_time a, #calendar_menu a{color: #4E4E4A; font-family: tahoma; font-size: 8pt; text-decoration: none; font-weight: bold;}
+
+
+#calendar_time a:hover, #calendar_menu a:hover{ 
+	
+	color: #4E4E4A; font-family: tahoma; font-size: 8pt; text-decoration: underline; font-weight: bold;
+		
+}
+
+
+
+
+
+
+
+/************ Calendar and Location Index *****************/
+
+
+#list_header {
+	font-family: tahoma;
+	font-size: 10pt;
+	color: #d34f19;
+	font-weight:bold;
+}
+
+
+
+div.category_name a:link, div.category_name a:visited, div.category_name a:active {
+
+	font-family: tahoma;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+div.category_name a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+
+div.calendar_name, div.location_name {
+	border: 1px solid;
+	border-color:  #FFFFFF;
+	border-right-style: solid; 
+	border-left-style: solid;
+	border-top-style: none;
+	border-bottom-style: none;
+	background-color: #ecedef;
+	font-family: tahoma; 
+	font-size: 8pt;
+	color: #0A66AD;
+	
+}
+
+div.calendar_name a:link, div.calendar_name a:visited, div.calendar_name a:active, div.location_name a:link, div.location_name a:active, div.location_name a:visited {
+
+	font-family: tahoma;
+	font-size: 8pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+div.calendar_name a:hover, div.location_name a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+
+
+/**************** Form ************************/
+
+
+td.form_label {
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: right;
+	
+}
+
+
+
+div.section_title {
+
+	font-family: arial;
+	font-size: 12pt;
+	color: #d34f19;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 25px;
+	
+
+	
+}
+
+
+td.form_section {
+
+	border-bottom: 1px solid;
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+
+
+td.form_desc {
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	text-decoration: none;
+		
+}
+
+
+td.form_desc a, td.form_desc a:visited, td.form_desc a:active, td.form_desc a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+
+}
+
+td.form_desc a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+/***************** Advanced Search ****************************/
+
+
+
+table.advsearch td {
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+
+table.advsearch_filters {
+	border: 1px solid #D1D1CE;
+	background-color: #fff9d8;
+	margin-top: 15px;
+	width: 100%;
+
+}
+
+table.advsearch_filters td {
+	
+	font-family: arial;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #4E4E4A;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	
+}
+
+
+table.advsearch_filters td select {
+	font-family: arial;
+	font-size: 8pt;	
+	font-weight: normal;
+}
+
+
+
+
+table.advsearch_filters a, table.advsearch_filters a:visited, table.advsearch_filters  a:active, table.advsearch_filters  a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-right: 4px;
+
+}
+
+table.advsearch_filters a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+table.search_button a, table.search_button a:visited, table.search_button  a:active, table.search_button  a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-right: 4px;
+
+}
+
+table.search_button a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+
+table.search_results {
+	width: 100%;
+
+}
+
+
+td.result_header {
+
+	border-bottom: 1px solid;
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+
+/********** Event Order By **********************/
+#event_order {
+				
+		text-align: right;
+		font-size: 10pt;
+		color: #4E4E4A;
+		font-family: arial;
+		font-weight: bold;
+		
+}
+/***********************************************/
+
+
+
+/***************** Search Result display ******************************/
+
+	div.result_item {
+			
+		font-family: arial;
+		font-size: 10pt;
+		color: #4E4E4A;
+
+	}
+
+
+div.result_title a, div.result_title a:visited, div.result_title a:active, div.result_title a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+
+}
+
+div.result_title a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+div.result_recurr {
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	padding-top: 2px;
+}
+
+
+div.result_time {
+	
+	font-family: arial;
+	font-size:10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	padding-top: 2px;
+}
+
+
+div.result_time a, div.result_time a:visited, div.result_time a:active, div.result_time a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-right: 4px;
+
+}
+
+div.result_time a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+
+
+div.result_calendar {
+	
+	font-family: arial;
+	font-size:10pt;
+	color: #4E4E4A;
+	font-weight: normal;
+	padding-top: 8px;
+}
+
+
+div.result_calendar a, div.result_calendar a:visited, div.result_calendar a:active, div.result_calendar a:link{
+	
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: normal;
+	text-decoration: underline;
+	padding-right: 4px;
+
+}
+
+div.result_calendar a:hover{
+	
+	text-decoration: none;
+
+}
+
+
+/*********** Result Page Navigation ************************/
+		
+	div.page_nav_title{
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: bold;
+		color: #4E4E4A;
+		background-color: #fff9d8;
+		
+	}
+	
+	a.nav_link, a.nav_select_link {
+		font-family: arial;
+		font-weight: bold;
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		border-left: 0px;
+		
+	}	
+	
+	a.nav_link {
+		font-size: 10pt;
+		color: #0A66AD;
+	}
+	
+	a.nav_select_link {		
+		font-size: 10pt;
+		color: #4E4E4A;
+		text-decoration: none;		
+	}
+
+	
+	a.nav_link:hover{
+		text-decoration: none;
+	}
+	
+	/************************************************************/
+
+
+

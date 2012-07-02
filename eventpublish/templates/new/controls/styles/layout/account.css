@@ -1,0 +1,204 @@
+div.account_active{
+	width: 100%;padding-left: 15px;padding-bottom:10px;margin-top: 35px; font-family: arial;font-size: 10pt; color: #4E4E4A;
+}
+
+div.account_active p{
+	font-family: arial;font-size: 10pt;font-weight: normal;color: #4E4E4A;
+}
+
+div.account_active h3{
+	font-family: arial; color: #4E4E4A; font-size: 12pt;
+}
+
+
+p.account_email a{
+	font-family: arial;	font-size: 12px; font-weight: normal; color: #4E4E4A;
+}
+p.account_email a:hover{
+	text-decoration: none;
+}
+
+
+#total_account a{
+	font-family: arial;	font-size: 10pt; font-weight: bold; color: #0A66AD;
+}
+#total_account a:hover{
+	text-decoration: none;
+}
+
+
+p.account_action a{
+	font-family: arial;	font-size: 12px; font-weight: normal; color: #0A66AD;
+}
+p.account_action a:hover{
+	text-decoration: none;
+}
+
+
+span.account_type{
+	font-family: arial;	font-size: 12px; font-weight: bold;color: #d84242;
+}
+
+
+
+#account_list {
+	width: 90%;margin-left: auto;margin-right: auto;
+	padding-top: 20px;
+	
+}
+
+
+#account_section_1, #account_section_2 , #account_section_3{
+	float: left;width: 31%;
+
+}
+
+#account_section_1, #account_section_2{
+	border-right: 1px solid #babab6;
+}
+
+ #account_section_2, #account_section_3 {
+ 	padding-left: 1%;
+ }
+ 
+ #div_new_account{
+ 	float: right;
+}
+ 
+ #total_account {
+ 	float: left;
+	font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		color: #4E4E4A;
+
+ }
+ 
+  #account_order {
+ 	float: right;
+	font-family: arial;
+		font-size: 10pt;
+		font-weight: bold;
+		color: #4E4E4A;
+
+ }
+ 
+ 
+ #new_account, #edit_account {
+ 	
+	margin-top: 15px;
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		width: 90%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		
+ }
+ 
+ 
+ #new_account h1, #edit_account h1{
+		
+		font-family: arial;
+		font-size: 12pt;
+		font-weight: bold;
+		color: #4E4E4A;
+		margin-top: 0px;
+		
+	}
+ 
+ 
+ 
+ #new_account p, #edit_account p{
+		
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		font-weight: bold;
+		padding-top:8px;
+		
+	}
+	
+	
+	span.new_account_field{
+		width: 15%;
+		display: block;
+		float: left;
+		
+	}
+	
+	span.new_account_desc {
+		font-weight: normal;
+	}
+	
+	#new_account a, #edit_account a{
+	font-family: arial;	font-size: 12px; font-weight: normal; color: #0A66AD;
+}
+#new_account a:hover, #edit_account a:hover{
+	text-decoration: none;
+}
+
+#new_account_button {
+	width:55%;
+	text-align: right;
+}
+
+
+span.field_error {
+	
+	font-family: arial; 
+	font-size: 10pt;
+	color: #d84242;
+	font-weight: bold;
+	padding-left: 8px;
+
+}
+
+
+span.field_error img {
+	vertical-align: middle;
+}
+
+#process_message {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #eeeeed;
+}
+
+#process_success {
+	color: #23a13a;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+#process_error {
+	padding-left: 5px;
+	color: #d84242;
+	font-size: 10pt;
+	font-weight: bold;
+
+}
+
+#delete_confirm label {
+	width: auto;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;	
+	font-weight: bold;
+	color: #4E4E4A;
+	padding-right: 12px;
+}
+
+#account_listings{
+	clear: both;		
+}

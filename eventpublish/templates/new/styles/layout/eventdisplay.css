@@ -1,0 +1,227 @@
+
+	/****************** Top Header *********************/
+	#view_header{
+		width: 100%;
+		
+	}
+
+		
+	#arrow_left {
+		float: left;
+		width: 20%;	
+		margin: auto;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		border: 0;
+	}
+	
+	
+	#header_right{
+		float: right;
+		width: 78%;
+		
+	}
+	
+	
+	#view_header_text{
+		float: left;
+		width: 75%;
+		margin: auto;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		
+	}
+	
+	
+	#arrow_right {
+		float: right;
+		width: 25%;
+		margin: auto;
+		text-align: center;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	
+	#arrow_right, #arrow_left, img {
+		border: 0;
+	}
+
+
+	/**************** Event display box **************************/
+	table.monthbox, table.yearbox {
+	
+		margin-top: 10px;
+		width: 100%;
+		
+	}
+		
+	
+	div.weekbox, div.daybox, div.monthbox {
+
+		margin-top: 8px;
+		width: 100%;
+	
+	}
+	
+		
+
+	td.event_item_header, div.event_item_header{
+		padding: 6px;
+	}
+
+	
+	div.event_list {
+		padding-left: 6px;
+		min-height: 70px;
+	}
+
+
+
+	/****************** Event Item Display *********************/
+
+	div.event_item {
+	
+		padding-top: 25px;
+		padding-bottom: 25px;
+		width: 100%;
+	}
+	
+	
+	div.event_details, div.event_calendar{
+		position: relative;
+		padding-top: 6px;
+		
+	}
+	
+
+	div.event_icon {
+		
+		float: left;
+		display:none;
+		width: 30px;
+		height:50px;
+	
+	}
+
+
+	
+	
+	/****************** Option Dropdown box *********************/
+	.eventdrop {
+		
+		position: absolute;
+		
+	}
+
+	.eventdrop, .eventdrop ul {
+		padding: 0;
+		margin: 0;
+		margin-top:-2px;
+		list-style: none;
+		display: inline;
+		
+	}
+
+
+	.menuitem, .menuitemtop {
+		cursor: pointer;
+	
+	}
+
+	 .menuitem a, .menuitemtop a{
+		white-space: nowrap;
+		display: block;
+		padding: 3px 10px 3px 5px;
+		_width: 85px;
+		
+	}
+
+
+	ul.drop_down{
+		position: relative; 
+		left:0; 
+		margin-top:1px; 
+		display:none;
+		
+		}
+	
+		
+	a.event_options {
+		
+		display: block;
+		padding: 1px 10px 1px 3px;
+		top:0;
+		width: 30px;
+		white-space: nowrap;
+	
+	}
+	
+	
+	.eventdrop li {
+		float: left;
+		margin-bottom: 0;
+		width: 85px;
+	}
+	
+	.eventdrop li ul {
+		min-width: 85px;
+		width: 85px;
+	}	
+
+
+
+
+	/******* Month View *********/
+	
+	td.month_date_box {
+		width: 10%;
+		height: 80px;
+
+	}
+
+
+	
+	#event_controls{
+		float: right;
+		width: 220px;
+	}
+	
+	
+	#event_details {
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+	
+	#loc_con{
+		float: left;
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+/*
+td.section_header, {
+	font-family: tahoma;
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight:bold;
+}
+
+
+	#view_type {
+		position: relative;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	
+	}
+
+
+*/
+
+
+
+

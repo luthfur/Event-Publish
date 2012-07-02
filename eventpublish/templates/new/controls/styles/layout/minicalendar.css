@@ -1,0 +1,115 @@
+.minical {
+	width: 100%;
+}
+
+
+#start_picker {
+	border: 1px solid;	
+	border-color: #D1D1CE;
+	margin-bottom: 10px;	
+}
+
+
+tr.minical_header {
+	border: 1px solid;	
+	color: #FFFFFF;
+	font-family: verdana; 
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #d34f19;
+
+
+}
+
+
+tr.minical_header img {
+	border: 0;
+}
+
+tr.minical_header a{color: #ffffff; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: bold;}
+tr.minical_header a:active{color: #ffffff; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: bold;}
+tr.minical_header a:visited{color: #ffffff; font-family: verdana; font-size: 8pt; text-decoration: none; font-weight: bold;}
+tr.minical_header a:hover{color: #ffffff; font-family: verdana; font-size: 8pt; text-decoration: underline; font-weight: bold;}
+
+
+#prev_month img, #prev_year img, #next_month img, #next_year img {
+	vertical-align: top;
+}
+
+
+
+td.highlight_cell, td.minical_cell, td.weekday_cell, td.event_cell, td.today_cell {
+
+	border: 1px solid;
+	padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+	font-family: verdana; 
+	font-size: 8pt;
+	padding: 3px;
+	
+}
+
+
+
+td.highlight_cell, td.minical_cell, td.event_cell, td.today_cell {
+cursor: pointer;
+}
+td.minical_cell, td.weekday_cell {
+
+	border-color: #F2F2EF;
+	background-color: #F2F2EF;
+
+}
+
+
+td.highlight_cell {
+	
+	border-color: #F2F2EF;
+	background-color: #FFFFFF;
+
+}
+
+
+td.weekday_cell {
+	font-weight: bold;
+}
+
+
+td.today_cell {
+	
+	border-color: #F2F2EF;
+	background-color: #B2D4F4;
+	color: #000000;
+	font-weight: bold;
+
+}
+
+td.event_cell {
+	
+	border-color: #F2F2EF;
+	background-color: #C0CFE8;
+
+}
+
+
+
+td.minical_cell a, td.event_cell a, td.highlight_cell a, td.today_cell a {
+	color: #000000; font-family: verdana; font-size: 8pt; text-decoration: none;
+}
+
+
+td.minical_cell a:active, td.event_cell a:active, td.highlight_cell a:active, td.today_cell a:active{
+	color: #000000; font-family: verdana; font-size: 8pt; text-decoration: none;
+}
+
+
+td.minical_cell a:visited, td.event_cell a:visited, td.highlight_cell a:visited, td.today_cell a:visited{
+	color: #000000; font-family: verdana; font-size: 8pt; text-decoration: none;
+}
+
+
+td.minical_cell a:hover, td.event_cell a:hover, td.highlight_cell a:hover, td.event_cell a:hover{
+	color: #000000; font-family: verdana; font-size: 8pt; text-decoration: underline;
+}

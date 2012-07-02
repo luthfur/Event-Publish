@@ -1,0 +1,872 @@
+	/***************** Overall Header and body styles   ***************************/
+	body{margin:0;background-color:#ececec;}
+			
+	#header{width:100%;  height: 100px; }
+	#content{width:100%; height: 100%;clear: both; }
+	#footer{width:88%;margin-right:auto;margin-left:auto;color:#4E4E4A; font-family: arial; font-size: 8pt;padding-top:10px; text-align:right;line-height: 1.6}
+	
+	#footer a{color:#4E4E4A; font-family: arial; font-size: 8pt;}
+	#footer a:hover{text-decoration:none}
+	
+			
+	#header_main{background: #ffffff ;width:89%;float:left;height: 100%;}
+	div.side_bar{width:5%;float:right;height: 100%;}
+	div.left_side_bar{width:5%;float:left;height: 100%;background: #ececec;}
+	
+	
+	#logo {padding-top: 40px;padding-left: 4%; float: left;}
+	
+	#main_nav{width: 488px; height:52px; float: right;padding-top: 55px; padding-right:10px; clear:right}
+	a.main_nav{color:#82878a; font-size: 18pt; font-family: trebuchet ms, helvetica; float: left; font-weight: bold; text-decoration: none; padding-right: 30px;}
+	
+	a.selected_nav{color:#0680e8; font-size: 18pt; font-family: trebuchet ms, helvetica; float: left; font-weight: bold; text-decoration: none; padding-right: 30px;}
+	
+	#content_main{width:89%;float: left;height: 100%;background: #ffffff; padding-bottom: 30px;}
+	
+	#account_controls{float: right;color:#4E4E4A; font-family: arial; font-size: 8pt;padding-top:15px;padding-right:55px;}
+	#account_controls a{color:#0680e8; font-family: arial; font-size: 8pt;}
+	#account_controls a:hover{text-decoration:none}
+	
+	/*******************************************************************************/
+	
+	
+	
+	
+	/*********************************** Section Title ******************************************/
+	#section_title{clear:both;padding-top: 1px; width: 90%;margin-left: auto;margin-right: auto;}
+	
+	#section_title h1{
+				
+		margin-top: 5px;
+		font-family: arial;
+		font-size: 18pt;
+		font-weight: bold;
+		color: #000000;
+		
+	}
+	
+	
+	#section_title p, #section_title div{
+	
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		
+	}
+	/********************************************************************************************/
+	
+	
+	
+	
+	/********************************** Sub Navigation *************************************/
+	div.sub_nav {margin-top: 0; padding-top:0; height: 27px;width: 445px;float: right;margin-right:55px;_margin-right:25px;background:#036bc4 url(../../images/subnav_right.gif) no-repeat right; margin-bottom: 30px;}
+	
+	div.sub_nav_inner{background: url(../../images/subnav_left.gif); width: 100%; background-repeat: no-repeat;height: 27px;}
+	
+	div.sub_nav a{margin-top: 0; margin-bottom: 0; padding-top: 0;color: #ffffff;font-family: arial;font-style: normal;font-size: 12px;font-weight: bold;text-decoration: none;padding-left: 10px;padding-right: 15px;}
+	div.sub_nav a:hover{text-decoration: underline;}
+	
+	#default_nav{color: #ffffff;font-family: arial;font-size: 12px;font-weight: none; font-style: italic; padding-top: 5px; margin-top: 0;margin-right: auto; margin-left:auto;text-align:center}
+				
+	div.sub_nav_link  {margin-top: 0; padding-top: 4px;margin-right: auto; margin-left:auto;text-align:center}
+	
+	
+	
+	
+	/*****************************************************************************************************/
+	
+	
+	#sub_desc{float:left;padding-left: 5%;padding-top:10px;font-family:arial;font-size:10pt;color:#4E4E4A}
+	#sub_desc a{color:#036bc4;font-family:arial;font-size:10pt;}
+	#sub_desc a:hover{text-decoration: none}
+	
+	
+	
+	/************************************* Event Control Style ***********************************************/
+	#delete_confirm, #account_form, #new_event, #new_main_location, #new_main_contact, #event_details, #location_main_details, #contact_main_details, #redirection {
+		
+		margin-top: 20px;
+		width: 86%;
+		padding: 20px;
+		padding-top: 12px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #eeeeed;
+		border: 1px solid #babfca;
+			
+	}
+	
+	
+	#location_main_details p, #contact_main_details p {
+		
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		padding-top: 4px;
+	
+	
+	}
+	
+	
+	#location_details_button_set, #contact_details_button_set {
+		width: 100%;
+		clear: both;
+		
+	}
+	
+	#redirection {
+		margin-top: 25%;
+	}
+	
+	#event_list, #location_list, #contact_list {
+	
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+				
+	}
+	
+	#location_list table, #contact_list table {
+		width: 100%;
+	}
+	
+
+	
+	/******************************* Event List Styling **************************************/
+	
+	
+	/*********** Filter Style ******************/
+	#filters {
+	
+		margin-top: 15px;
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		width: 90%;
+		padding-top: 14px;
+		padding-left: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+	
+	#filters h1 {
+		
+		font-family: arial;
+		font-size: 12pt;
+		font-weight: bold;
+		color: #4E4E4A;
+		margin-top: 0px;
+		
+	}
+	
+	
+	#filters a {
+		font-family: arial;
+		font-size: 10pt;
+		color: #0A66AD;
+		font-weight: bold;
+	}
+
+	
+	#filters a:hover{
+		text-decoration: none;
+	}
+	
+	
+	#filters p {
+		
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: normal;
+		color: #4E4E4A;
+		font-weight: bold;
+		border-top: 1px solid #E7E7D4;
+		padding-top:12px;
+		
+	}
+	
+	.filter_button {
+		 float: right;
+		 margin-right: 10px;
+		 margin-bottom: 10px;
+		 font-family: arial;
+		 font-size: 10pt;
+		 margin-top:12px;
+		 font-weight: bold;
+	 
+	}
+	
+	
+	.filter_select {
+		width: 200px;	
+		
+	}
+	
+	
+	#filters i {
+		font-family: arial;
+		font-size: 10pt;
+		color: #4E4E4A;	
+		display: inline;
+		font-weight: normal;
+	}
+	/***********************************************/
+
+	
+	
+	/********** Event Order By **********************/
+	#event_order {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: right;
+		font-size: 10pt;
+		color: #4E4E4A;
+		font-family: arial;
+		font-weight: bold;
+		
+	}
+	/***********************************************/
+	
+	
+	
+	/**************** Results Display **********************/
+	div.result_item {
+	
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-family: arial;
+		font-size: 10pt;
+		color: #4E4E4A;
+
+	}
+	
+	div.list_result_item {
+	
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-family: arial;
+		font-size: 10pt;
+		color: #4E4E4A;
+		height: 150px;
+
+	}
+	
+	
+	div.result_title a, div.result_title a:visited, div.result_title a:active, div.result_title a:link{
+		
+		font-family: arial;
+		font-size: 12pt;
+		color: #055dc0;
+		font-weight: bold;
+	
+	}
+	
+	div.result_title a:hover{
+		
+		text-decoration: none;
+	
+	}
+	
+	
+	div.result_recurr {
+		
+		font-family: arial;
+		font-size: 10pt;
+		color: #4E4E4A;
+		font-weight: normal;
+		padding-top: 8px;
+	}
+	
+	div.result_recurr p {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin: 0;
+	}
+	
+	div.result_time {
+		
+		font-family: arial;
+		font-size:10pt;
+		color: #4E4E4A;
+		font-weight: normal;
+		padding-top: 8px;
+	}
+	
+	
+	div.result_time a, div.result_time a:visited, div.result_time a:active, div.result_time a:link{
+		
+		font-family: arial;
+		font-size: 10pt;
+		color: #055dc0;
+		font-weight: normal;
+		text-decoration: underline;
+		padding-right: 4px;
+	
+	}
+	
+	div.result_time a:hover{
+		text-decoration: none;
+	}
+			
+	div.result_calendar {
+		
+		font-family: arial;
+		font-size:10pt;
+		color: #4E4E4A;
+		font-weight: normal;
+		padding-top: 8px;
+	}
+	
+	
+	div.result_calendar a, div.result_calendar a:visited, div.result_calendar a:active, div.result_calendar a:link{
+		
+		font-family: arial;
+		font-size: 10pt;
+		color: #055dc0;
+		font-weight: normal;
+		text-decoration: underline;
+		padding-right: 4px;
+	
+	}
+	
+	div.result_calendar a:hover{
+		
+		text-decoration: none;
+	
+	}
+	/************************************************************/
+	
+	
+	/*********** Result Page Navigation ************************/
+	div.page_nav {
+		margin-top:20px;
+		position: relative;
+		clear: both;
+	}
+	
+	
+	div.page_nav_title{
+		font-family: arial;
+		font-size: 10pt;
+		font-weight: bold;
+		color: #4E4E4A;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		display: block;
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		float: right;
+	}
+	
+	a.nav_link, a.nav_select_link {
+		font-family: arial;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		display: block;
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		border-left: 0px;
+		float: right;
+	}
+	
+	
+	a.nav_link {
+		font-size: 10pt;
+		color: #0A66AD;
+	}
+	
+	a.nav_select_link {		
+		font-size: 10pt;
+		color: #4E4E4A;
+		text-decoration: none;		
+	}
+
+	
+	a.nav_link:hover{
+		text-decoration: none;
+	}
+	
+	/************************************************************/
+	
+	
+	
+	/*****************************************************************************************************************/
+	
+	
+	
+	
+	#redirection_title {		
+		font-size: 16pt;
+		color: #23a13a;
+		font-family: arial;
+		font-weight: bold;
+		
+	}
+	
+	
+	/********************************* Event Details Page *****************************************************/
+	
+	
+	#event_details_controls {
+		float: right;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		
+	}
+	
+	#event_details_controls img{
+		vertical-align: bottom;
+		padding-left: 6px;
+		padding-top: 0;
+		
+	}
+	
+	
+	#event_details_header {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		
+	}
+	
+	#event_details_heading {
+		margin-top: 12px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		float: left;
+	
+		
+	}
+		
+	#event_details_title {		
+		font-size: 16pt;
+		color: #141412;
+		font-family: arial;
+		font-weight: bold;
+		padding-bottom: 15px;
+		
+	}
+			
+	
+	#event_details_published, #event_details_draft , #event_details_cancelled {		
+		font-size: 12pt;
+		font-family: arial;
+		font-weight: bold;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		
+	}
+	
+	#event_details_published {	
+		color: #23a13a;
+	}
+	
+	#event_details_draft {	
+		color: #4E4E4A;
+	}
+	
+	#event_details_cancelled {	
+		color: #ff0000;
+	}
+	
+	
+	#event_details p, #redirection p {
+		
+		font-size: 10pt;
+		color: #141412;
+		font-family: arial;
+		font-weight: normal;
+		padding-top: 4px;
+	
+	}
+	
+	#redirection p {
+		font-weight: bold;
+	}
+	
+	#event_details a, #redirection a {
+		font-family: arial;
+		font-size: 10pt;
+		color: #0A66AD;
+	}
+	
+	#event_details a:hover, #redirection a:hover {
+		
+		text-decoration: none;
+		
+	}
+	
+	#event_details_att a{
+	
+	}
+		
+		
+	#event_details_desc, #event_details_att, #event_details_occ, #event_schedule_details, #event_location_details, #event_contact_details, #event_calendar_details, #event_details_tags{
+	
+		font-size: 10pt;
+		font-family: arial;
+		width: 700px;
+		color: #141412;
+		display: block;
+		
+		
+	}
+	
+	#event_details_desc, #event_details_att, #event_details_occ, #event_schedule_details, #event_location_details, #event_contact_details, #event_calendar_details, #event_details_tags{
+			
+	}
+	
+	#event_details_desc,  #event_schedule_details, #event_location_details, #event_contact_details, #event_details_att, #event_calendar_details, #event_details_tags{
+		padding-top: 10px;	
+		padding-bottom: 10px;	
+	}
+	
+	#event_details_desc h1 {		
+		font-size: 14pt;
+		color: #141412;
+		font-family: arial;
+		font-weight: bold;
+		margin: 0;
+	
+			
+	}
+	
+	
+	#loc_details p, #con_details p{
+
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	
+	}
+	
+	#loc_details h2, #con_details h2 {
+	
+		font-family: arial; 
+		font-size: 10pt;
+		color: #4E4E4A;
+		font-weight: bold;
+	
+	}
+	
+	#loc_details, #con_details  {
+		border: 1px solid #E7E7D4;
+		background-color: #fff9d8;
+		width: 35%;
+		margin-top: 10px;
+		padding: 10px;
+		margin-left: 60px;
+	
+	}
+	
+	
+	
+	
+	#reg_info {
+		border: 1px solid #BCC5CD;
+		background-color: #ffffff;
+		width: 600px;
+		padding: 15px;
+		margin: 0;
+	}
+	
+	
+	#reg_info_open, #reg_info_closed{
+		font-family: arial;
+		font-size: 12pt;
+		font-weight: bold;
+		margin: 0;
+	}
+	
+	#reg_info_open p, #reg_info_closed p{
+		font-family: arial;
+		font-size: 10pt;
+		margin: 0;
+		font-weight: bold;
+		color: #141412;
+		padding-top: 6px;
+		
+	}
+	
+	#reg_info_open{
+		color: #23a13a;
+	}
+	
+	
+	#reg_info_closed{
+		color: #4E4E4A;
+	}
+	
+	
+	#reg_close_process, #reg_open_process, #event_action_process {
+		border: 0px solid;
+		background: #ffffff;
+		width: 90%;
+		margin: 0;
+		padding: 0;		
+		font-family: arial;
+		color: #d34f19;
+		font-size: 14pt;
+		font-weight: normal;
+		clear: both;
+	}
+	
+	
+	
+
+	/*****************************************************************************************************************/
+	
+	
+	/************************************ Location Form *************************************************************/
+	
+	div.field_error {
+	
+	font-family: arial; 
+	font-size: 10pt;
+	color: #ff0000;
+	font-weight: bold;
+	padding-left: 8px;
+
+	}
+	
+	
+	div.field_error img {
+		vertical-align: middle;
+	}
+
+	#location_title {
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14pt;
+	font-weight: bold;
+	color: #000000;
+	width: 750px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	
+	}
+	
+	#location_details_title h1, #contact_details_title h1{
+		font-family: arial;
+		font-size: 16pt;
+		font-weight: bold;
+		color: #23a13a;
+		padding-top: 10px;
+	
+		margin-left: auto;
+		margin-right: auto;
+		clear:both;
+		width: 90%;
+	}
+	
+	/**************************************************************************************************************************/
+	
+	
+	
+	/************************************************ List Style ***********************************************************/
+	
+	#list_menu {
+		
+		margin-top: 20px;
+		width: 90%;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		
+		margin-left: auto;
+		margin-right: auto;
+			
+	}
+	
+	
+	#list_options {
+		float: left;
+		width: 50%;
+		padding: 0;
+		margin: 0;	
+	
+	}
+	
+	#list_order_options {
+		float: right;
+		width: 50%;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+	}
+	
+	#list_options a{
+		font-family: arial;
+		font-size: 10pt;
+		color: #0A66AD;
+		font-weight: bold;
+		padding-left: 10px;
+	}
+	
+	
+	#list_options a:hover{
+		text-decoration: none;
+	}
+	
+	table.list_table {
+		border-collapse: collapse;
+		border: 1px solid;
+		font-family: arial;
+		font-size: 10pt;
+		border-color: #babfca;
+	}
+	
+	
+	tr.list_header td {
+		border: 1px solid; 
+		padding: 5px;
+		font-weight: bold;
+		border-color: #babfca;
+		background-color: #eeeeed;
+	}
+	
+	tr.list_row_even, tr.list_row_odd{
+		
+		border-bottom: none;
+		border-top: none;
+	}
+	
+	tr.list_row_even td, tr.list_row_odd td {
+		border-right: 1px solid;
+		border-left: 1px solid;
+		border-bottom: none;
+		border-top: none;
+		padding: 8px;
+		vertical-align: top;
+		border-color: #babfca;
+		height: 90px;
+		
+	}
+	
+	tr.list_row_even td {
+		background-color: #eeeeed;
+	}
+	
+	tr.list_row_even a, tr.list_row_odd a{
+		
+		font-family: arial;
+		font-size: 10pt;
+		color: #055dc0;
+		font-weight: bold;
+		
+	
+	}
+	
+	tr.list_row_even a:hover, tr.list_row_odd a:hover{
+		
+		text-decoration: none;
+	
+	}
+		
+	/**************************************************************************************************************************/
+	
+	
+	/************************************ Login Style *****************************************************/
+	#login_box{
+		width: 450px;
+		height: 250px;
+		background-color: #ffffff;
+		border: 10px solid #c2c3c5;
+		margin-top: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px; 
+		padding-left: 20px; 
+		padding-right: 20px; 
+	}	
+	
+	#login_box img {
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+	#login_fields {
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1px;
+	}
+	
+	#login_fields p{
+		height: 20px;
+	}
+	
+		
+	input.login_fields_input{
+		float: left;
+	}
+	
+	#login_button {
+		float: right;
+	}
+	
+	#login_recovery{
+		text-align: left;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 10pt;	
+		color: #4E4E4A;
+	}
+	
+	#login_message{
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12pt;	
+		font-weight: bold;
+		color: #036bc4;
+		text-align: center;
+	}
+	
+	#login_error{
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 10pt;	
+		font-weight: bold;
+		color: #d84242;
+	}
+	
+	#login_error img{
+		vertical-align: middle;
+		padding-right: 4px;
+	}
+	
+	
+	
+	#login_box a{color:#036bc4;font-family:arial;font-size:10pt;text-decoration: none;float:right; padding-right: 10px}
+	#login_box a:hover{text-decoration: underline}
+	
+	#login_box label {
+		width: 100px;
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 10pt;	
+		font-weight: bold;
+		color: #4E4E4A;
+		vertical-align: bottom;
+	}
+	
+	/*******************************************************************************************************/
+	

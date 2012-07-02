@@ -1,0 +1,348 @@
+	
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		text-align:center;
+
+	}
+	
+	
+	.clear {
+		clear: both;
+	}
+	
+
+	/* 
+	Main Calendar Wrapper
+	
+	Edit this to move and position the entire calendar
+	
+	*/
+	#calendar, .calendar_dim {
+	
+		position: relative;
+		width: 800px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 0px;
+		text-align: left;
+		padding-bottom: 20px;
+		
+		
+	}
+	
+	
+	.calendar_dim {
+	
+		filter:alpha(opacity=50);
+		-moz-opacity: 0.5;
+
+	}
+	
+	
+	/* 
+	Template Header and its content positioning
+	*/
+	#template_header {
+		width: 100%;
+	}
+
+	
+	#calendar_title {
+		float: left;
+		
+		
+	}
+	
+	
+	#calendar_title2 {
+		float: left;
+		clear: both;
+		padding-bottom: 10px;
+		padding-top: 6px;
+		
+	}
+	
+	
+	#top_menu {
+		float: right;
+		padding-bottom: 10px;
+	}
+
+
+
+	#top_menu a{
+		
+		margin-left: 4px;
+		margin-right: 4px;	
+	}
+	
+	
+	
+	/*
+	Template Top Menu Bar and its content positioning 
+	*/
+	#template_menu {
+		width: 100%;
+		clear: both;
+		
+	}
+
+	#calendar_time {
+	
+		float: right;
+		padding: 8px;
+	
+				
+	}
+	
+	#calendar_menu {
+		float: left;
+		padding: 4px;
+	}
+
+	#calendar_menu a{ 
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	
+	
+	
+	
+	
+	/*
+	Main Calendar Body (Wrapper for the rest of the layout)
+	*/
+	#wrapper {
+
+		width: 100%;
+		clear: both;
+
+	}
+
+
+	
+	/*
+	Calendar Index listings
+	*/
+	
+	#index_list {
+		padding-top: 50px;
+		width: 100%;
+	}
+
+
+
+	#list_header {
+		float: left;
+	}
+	
+	
+	#view_selector {
+		float: right;
+			
+	}
+
+
+	#cal_list, #loc_list {
+		width: 100%;
+		clear: both;
+	}
+
+	
+	td.cat_set {
+		width: 50%;
+		vertical-align: top;
+		padding-top: 25px;
+	}
+	
+	div.calendar_name, div.location_name {
+		padding: 8px;
+		width: 96%;
+		margin-top: 2px;
+	
+	}
+
+	div.category_name {
+		padding-bottom: 6px;
+		padding-left: 2px;
+		
+		width: 95%;
+	}
+	
+	
+	/*
+	Calendar Main Body:
+	
+	Event Display and Right Side Bar positioning
+	
+	*/
+	
+	
+	div.event_display {
+		width: 73%;
+		float:left;
+		padding-top: 6px;
+		max-width: 640px;
+		
+	}
+
+
+
+	div.event_display_wide{
+		width: 100%;
+		float:left;
+		margin-left:0;
+		padding-top: 6px;
+	}
+
+
+	#sidebar {
+		float: right;
+		margin-right: 0;
+		border: 0px solid;
+		width: 200px;
+		padding-top: 6px;
+		display: none;
+	}
+	
+	
+	
+	table.form_table {
+		width:100%;
+	
+	}
+	
+	
+	
+	td.form_label {
+		padding-right: 3px;
+		width: 30%;
+	}
+	
+	
+	
+	td.form_field, td.form_label, td.form_desc  {
+		padding-top: 5px;
+	}
+	
+	
+	td.form_buttons {
+		padding-top: 35px;
+		text-align: center;
+		
+	}
+	
+	td.form_field {
+		width: 30%;
+	}
+	
+	
+	td.form_section {
+		
+		padding-top: 25px;
+		padding-bottom: 10px;
+		width: 100%;
+	
+	}
+
+	td.form_desc {
+		width: 45%;
+	}	
+	
+	
+	table.search_button {
+		width: 100%;	
+	}
+	
+	table.search_button td {
+		padding-top:15px;
+		width: 50%;
+	}
+	
+	
+	td.result_header {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	
+	
+	/********** Event Order By **********************/
+	#event_order {
+	
+		margin-left: auto;
+		margin-right: auto;
+		
+		padding-top: 15px;
+		padding-bottom: 15px;
+		
+		
+	}
+	/***********************************************/
+	
+	div.result_item {
+		
+		padding-top: 30px;
+		padding-bottom: 20px;
+		
+	}
+	
+	
+	
+	/*********** Result Page Navigation ************************/
+	div.page_nav {
+		margin-top:20px;
+	}
+	
+	
+	div.page_nav_title{		
+		
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		display: block;
+		float: right;
+				
+	}
+	
+	a.nav_link, a.nav_select_link {
+			
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		float: right;
+		display: block;
+				
+	}
+	
+		
+	/************************************************************/
+	
+	
+
+/*
+
+#switch_title {
+
+	font-weight: bold;
+	display: inline;
+
+}
+
+
+#cancel_options {
+	
+	font-family: tahoma;
+	font-weight: normal;
+	color: #4E4E4A;
+	font-size: 10pt;
+	width: 500px;
+}
+
+*/
+
+

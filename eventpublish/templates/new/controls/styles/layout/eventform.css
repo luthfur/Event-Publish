@@ -1,0 +1,527 @@
+
+label {
+	width: 180px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;	
+	font-weight: bold;
+	color: #4E4E4A;
+}
+
+
+label i {
+	font-weight: normal;
+	font-size: 10pt;
+}
+
+
+
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	width: 90%; 
+	font-family: sans-serif; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	
+}
+
+legend {
+font-family: trebuchet ms, Helvetica; 
+font-size: 14pt;
+color: #0A66AD;
+font-weight: normal;
+padding-right: 5px;
+padding-bottom: 15px;
+
+}
+
+
+
+/********************************* Tab Styles ******************************************************/
+
+#tab_nav {
+	float: left;
+	padding: 0;
+	width: 95%;
+	margin-top: 15px;
+
+}
+
+
+#tab_body {
+	clear: both;
+	border-top: 6px solid #0A66AD;
+	border-bottom: 2px solid #0A66AD;
+	border-left: 2px solid #0A66AD;
+	border-right: 2px solid #0A66AD;
+	width: 95%;
+	padding: 1em;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+
+#tab_nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 800px;
+	float: left;
+	
+}
+
+
+
+#tab_nav ul li.basic{
+
+	float: left;
+	background: url(../../images/tab/right.gif) no-repeat top right;
+	width: 125px;
+	margin-left: 2px;
+	cursor: pointer;
+		
+}
+
+
+
+#tab_nav ul li.basic a{
+
+	float: left;
+	background: url(../../images/tab/left.gif) no-repeat top left;
+	text-decoration: none;
+	display: block;
+	padding-top: 2px;
+	padding-left: 10px;
+	line-height: 2.3em;
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: bold;
+	
+		
+}
+
+
+li.select {
+	float: left;
+	background: url(../../images/tabselect/right.gif) no-repeat top right;
+	width: 125px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+
+li.select a {
+
+	float: left;
+	background: url(../../images/tabselect/left.gif) no-repeat top left;
+	text-decoration: none;
+	display: block;
+	padding-top: 2px;
+	padding-left: 10px;
+	line-height: 2.3em;
+	font-family: arial; 
+	font-size: 10pt;
+	color: #ffffff;
+	font-weight: bold;
+	
+		
+}
+
+
+li.highlight {
+	float: left;
+	background: url(../../images/tabroll/right.gif) no-repeat top right;
+	width: 125px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+
+li.highlight a {
+
+	float: left;
+	background: url(../../images/tabroll/left.gif) no-repeat top left;
+	text-decoration: none;
+	display: block;
+	padding-top: 2px;
+	padding-left: 10px;
+	line-height: 2.3em;
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: bold;
+	
+		
+}
+/*********************************************************************************************/
+
+
+
+
+/******************************** Date Picker ***********************************************/
+
+#start_picker, #stop_picker {
+	
+	width: 200px; 
+	border: 1px solid; 
+	z-index: 995; 
+	position: relative; 
+	
+}
+
+#selected_dates {
+
+	float: right;
+	width: 300px;
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	height: 210px;
+	overflow: auto;
+	
+}
+
+
+.selected_date_highlight {
+	background-color: #FFFFFF;
+}
+
+#date_selection_area {
+	
+	float: left;
+	width: 420px;
+	margin: 0;
+
+}
+
+#date_selection_area h3{
+	font-family: arial; 
+	font-size: 12pt;
+	font-weight: bold;
+	color: #4E4E4A;
+	margin: 0;
+	padding-top: 5px;
+}
+
+
+#selected_dates h1{
+	
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+	color: #4E4E4A;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	
+}
+
+#selected_dates div{
+	
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: normal;
+	color: #4E4E4A;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin: 0;
+	border-top: 1px solid #E7E7D4;
+	border-bottom: 1px solid #E7E7D4;
+	cursor: pointer;
+	border-collapse: collapse;
+
+	
+}
+
+#selected_dates p {
+	
+	padding-top: 4px;
+	margin: 0;
+}
+
+
+
+#start_date_error, #stop_date_error, #date_compare_error, #date_string_error {
+	font-family: arial; 
+	font-size: 10pt;
+	color: #e7550e;
+	font-weight: bold;
+	
+}
+
+#date_string_error img{
+	vertical-align: middle;
+}
+/*********************************************************************************************/
+
+
+#event_title {
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14pt;
+	font-weight: bold;
+	color: #000000;
+	width: 750px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	
+}
+
+
+textarea.field {
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+	
+}
+
+div.field select, div.field input, div.field textarea{
+	float: left;
+	
+}
+
+
+span.field_desc {
+
+	padding-left: 20px;
+	vertical-align: top;
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+
+	display: inline;
+	position: absolute;
+	
+	
+	
+}
+
+
+span.field_desc a{
+
+	font-family: arial; 
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+
+}
+
+span.field_desc a:hover {
+	text-decoration: none;
+}
+
+
+
+#location_details p, #contact_details p{
+
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	
+}
+
+#location_details h2, #contact_details h2 {
+
+	font-family: arial; 
+	font-size: 10pt;
+	color: #4E4E4A;
+	font-weight: bold;
+
+}
+
+#location_details, #contact_details  {
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	width: 45%;
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 120px;
+
+}
+
+
+
+#location_process, #contact_process {
+	border: 0px solid;
+	background: #fff9d8;
+	text-align: right;
+	width: 90%;
+	margin-top: 10px;
+	padding: 10px;
+	font-family: arial;
+	color: #d34f19;
+	font-size: 14pt;
+	font-weight: normal;
+	clear: both;
+}
+
+
+#new_contact h2, #new_location h2 {
+
+	font-family: arial; 
+	font-size: 12pt;
+	font-weight: bold;
+	color: #4E4E4A;
+}
+
+#new_contact, #new_location {
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	width: 80%;
+	_width: 80%;
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 120px;
+}
+
+#location_added_message, #contact_added_message, #location_error_message, #contact_error_message{
+
+	border: 0px;
+	width: 45%;
+	padding: 10px;
+	margin-left: 120px;
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+	
+}
+
+#location_added_message, #contact_added_message, #att_success_message, #att_remove_message{
+	color: #75b408;
+}
+
+#location_error_message, #contact_error_message, #att_error_message{
+	color: #e7550e;
+}
+
+
+#location_added_message img, #location_error_message img, #contact_added_message img, #contact_error_message img, #att_success_message img, #att_remove_message img, #att_error_message img{
+		
+	vertical-align: middle;
+	padding-right: 8px;
+	
+}
+
+
+
+
+div.buttons {
+
+	text-align: right;
+	width: 100%;
+}
+
+
+div.field_error {
+	
+	font-family: arial; 
+	font-size: 10pt;
+	color: #e7550e;
+	font-weight: bold;
+	padding-left: 8px;
+
+}
+
+
+div.field_error img {
+	vertical-align: middle;
+}
+
+
+
+
+/****************************** Attachment Style *********************************************/
+#attachment_frame{
+overflow: hidden;
+word-wrap: break-word;
+background: #ffffff;
+}
+
+#attachment_form  {
+	width: 60%;
+	margin-top: 5px;
+	margin-left: 120px;
+	margin-bottom: 0;
+	
+}
+
+
+#attached_files {
+	border: 1px solid;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+ #att_success_message, #att_remove_message, #att_error_message{
+	border: 0px;
+	width: 75%;
+	margin: 0;
+	padding-bottom: 10px;
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+
+
+#attached_files {
+	width: 75%;
+}
+
+#attached_files table {
+	width: 95%;
+
+}
+
+
+#attached_files td {
+	font-family: arial;
+	font-size: 10pt;
+}
+
+
+#attached_files a {
+	font-family: arial;
+	font-size: 10pt;
+	color: #0A66AD;
+	font-weight: bold;
+}
+
+tr.attachment_row {
+	background-color: #F5F6F8;
+}
+
+/*******************************************************************************************/
+
+
+
+#calendar_id {
+	
+	width: 400px;
+	
+}
+
+input.action_button {
+	
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 6px;
+	
+}
+
+#button_set {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+

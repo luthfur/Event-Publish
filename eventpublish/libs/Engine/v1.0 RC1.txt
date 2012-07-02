@@ -1,0 +1,51 @@
+Release: RC1
+
+YearSchedule dropped due to inefficiency
+
+Possible bugs in WeekSchedule and DaySchedule related to cross month Monthly and Yearly items.
+
+
+Release: BETA 4
+
+MonthSchedule has been thoroughly tested.
+
+Possible bugs in WeekSchedule and DaySchedule related to cross month Monthly and Yearly items.
+
+
+
+Release: BETA 3
+Date: Nov 4, 2006
+
+WeekSchedule has been thorougly tested
+
+ScheduleIterator was not tested directly, but functioned accurately during WeekSchedule testing.
+
+
+
+
+Release: BETA 2
+Date: Oct 16, 2006
+
+DaySchedule has been thoroughly tested.
+
+Heap class has been replaced by the new ItemSorter class.
+
+Item sorter has been tested.
+
+Month, ScheduleData, ScheduleItem, ShiftTime classes tested.
+
+
+
+
+Release: BETA 1
+Date: Oct 1, 2006
+
+
+This is the singularity Core scheduling engine version 1.0 beta 1.
+
+DaySchedule has been recoded.
+
+WeekSchedule has been restructured.
+
+MonthSchedule is complete but untested.
+

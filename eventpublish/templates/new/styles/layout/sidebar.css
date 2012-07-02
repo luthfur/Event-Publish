@@ -1,0 +1,144 @@
+	
+	/*********** Main item positions *************/	
+	#minicalendar {
+		width: 100%;
+	}
+
+
+	
+	#view_event, #options, #search {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+
+
+	/*********** Item specific alignements *************/
+
+	#view_event_header, #view_event_body, #option_header, #option_body, #search_header, #search_body {
+				
+		width: 100%;
+		
+		
+	}
+	
+	
+	#view_event_header, #option_header, #search_header {
+
+		height: 3em;
+	
+	}
+	
+	
+	#view_event_caption, #option_caption, #search_caption{
+	
+		height: 1em;
+		left: 5%;
+		padding-top: 10px;
+		padding-left: 10px;
+		float: left;
+		
+	
+	}
+
+	
+	#select_toggle, #search_toggle, #option_toggle {
+				
+		float: right;
+		padding-top: 10px;
+		padding-right: 10px;
+
+	}
+	
+	#select_plus, #search_plus, #option_plus, #select_minus, #search_minus, #option_minus {
+				
+		cursor: pointer;
+
+	}
+	
+
+	#view_event_body, #option_body, #search_body {
+		text-align: right;
+		padding-top: 10px;
+		
+	}
+
+
+	#view_event_header, #view_event_body {
+		display: block;	
+	}
+	
+
+	#option_header, #option_body {
+		display: block;	
+	}
+	
+	
+	#search_header, #search_body {
+		display: block;	
+	}
+
+
+
+	div.selector {	
+		float: left;
+		
+	}
+	
+	
+	div.button {	
+		float: left; padding-left: 3px;		
+	}
+	
+
+
+	/***** Event Select box ************/
+	
+	#locfilter, #calfilter {
+		padding: 0;
+	}
+	
+	#calendar_header, #location_header {
+
+		text-align: left;
+		font-weight: bold;
+		padding-bottom: 8px;
+
+	}
+	
+	
+	#view_by_calendar, #view_by_location {
+				
+		text-align: left;
+		padding-bottom: 25px;
+		padding-left:10px;
+		
+	}
+	
+	
+	
+	#searchbox {
+		
+		padding-bottom: 10px;
+		padding-right: 10px;
+		
+	}
+
+
+	#advsearch {
+		
+		padding-bottom: 10px;
+		padding-left: 10px;
+		float: left;
+
+	
+	}
+
+	#optionlinks {
+		
+		padding-bottom: 10px;
+		padding-left: 10px;
+		text-align: left;
+	
+	
+	}

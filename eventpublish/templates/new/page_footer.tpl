@@ -1,0 +1,6 @@
+{* Smarty *}
+
+
+</body>
+
+</html>

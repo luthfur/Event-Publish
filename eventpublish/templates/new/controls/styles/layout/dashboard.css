@@ -1,0 +1,25 @@
+#dashboard {
+	width: 90%; margin-left: auto; margin-right: auto; margin-top: 30px;
+}
+#dash_events {
+	float: left; width: 74%;
+}
+#dash_bars {
+	position: absolute;right: 10%;width: 22%; min-width: 250px; max-width: 250px;	
+}
+
+#dash_events h1{
+	font-family: arial; font-size: 20px; font-weight: bold; color: #4E4E4A;
+}
+
+#dash_stats{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4E4E4A;
+	font-style: normal;
+	padding-left: 10px;
+	border: 1px solid #E7E7D4;
+	background-color: #fff9d8;
+	margin-top: 20px;
+}
